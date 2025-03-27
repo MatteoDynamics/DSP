@@ -1,0 +1,246 @@
+15:52:38 **** Clean-only build of configuration Debug for project lab01 ****
+make -j8 clean 
+rm -rf ./USB_HOST/Target/usbh_conf.cyclo ./USB_HOST/Target/usbh_conf.d ./USB_HOST/Target/usbh_conf.o ./USB_HOST/Target/usbh_conf.su ./USB_HOST/Target/usbh_platform.cyclo ./USB_HOST/Target/usbh_platform.d ./USB_HOST/Target/usbh_platform.o ./USB_HOST/Target/usbh_platform.su
+rm -rf ./USB_HOST/App/usb_host.cyclo ./USB_HOST/App/usb_host.d ./USB_HOST/App/usb_host.o ./USB_HOST/App/usb_host.su
+rm -rf ./Middlewares/Third_Party/FatFs/src/option/syscall.cyclo ./Middlewares/Third_Party/FatFs/src/option/syscall.d ./Middlewares/Third_Party/FatFs/src/option/syscall.o ./Middlewares/Third_Party/FatFs/src/option/syscall.su
+rm -rf ./Middlewares/Third_Party/FatFs/src/diskio.cyclo ./Middlewares/Third_Party/FatFs/src/diskio.d ./Middlewares/Third_Party/FatFs/src/diskio.o ./Middlewares/Third_Party/FatFs/src/diskio.su ./Middlewares/Third_Party/FatFs/src/ff.cyclo ./Middlewares/Third_Party/FatFs/src/ff.d ./Middlewares/Third_Party/FatFs/src/ff.o ./Middlewares/Third_Party/FatFs/src/ff.su ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.cyclo ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.d ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.o ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.su
+rm -rf ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.cyclo ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.d ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.su ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.cyclo ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.d ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.su ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.cyclo ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.d ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.su ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.cyclo ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.d ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.o ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.su
+rm -rf ./Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.cyclo ./Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.d ./Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.o ./Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.su
+rm -rf ./FATFS/Target/bsp_driver_sd.cyclo ./FATFS/Target/bsp_driver_sd.d ./FATFS/Target/bsp_driver_sd.o ./FATFS/Target/bsp_driver_sd.su ./FATFS/Target/fatfs_platform.cyclo ./FATFS/Target/fatfs_platform.d ./FATFS/Target/fatfs_platform.o ./FATFS/Target/fatfs_platform.su ./FATFS/Target/sd_diskio.cyclo ./FATFS/Target/sd_diskio.d ./FATFS/Target/sd_diskio.o ./FATFS/Target/sd_diskio.su
+rm -rf ./FATFS/App/fatfs.cyclo ./FATFS/App/fatfs.d ./FATFS/App/fatfs.o ./FATFS/App/fatfs.su
+rm -rf ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_mmc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_mmc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_mmc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_mmc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nand.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_nor.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.su
+rm -rf ./Core/Startup/startup_stm32f746nghx.d ./Core/Startup/startup_stm32f746nghx.o
+rm -rf ./Core/Src/adc.cyclo ./Core/Src/adc.d ./Core/Src/adc.o ./Core/Src/adc.su ./Core/Src/crc.cyclo ./Core/Src/crc.d ./Core/Src/crc.o ./Core/Src/crc.su ./Core/Src/dcmi.cyclo ./Core/Src/dcmi.d ./Core/Src/dcmi.o ./Core/Src/dcmi.su ./Core/Src/dma2d.cyclo ./Core/Src/dma2d.d ./Core/Src/dma2d.o ./Core/Src/dma2d.su ./Core/Src/eth.cyclo ./Core/Src/eth.d ./Core/Src/eth.o ./Core/Src/eth.su ./Core/Src/fmc.cyclo ./Core/Src/fmc.d ./Core/Src/fmc.o ./Core/Src/fmc.su ./Core/Src/gpio.cyclo ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/i2c.cyclo ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/i2c.su ./Core/Src/ltdc.cyclo ./Core/Src/ltdc.d ./Core/Src/ltdc.o ./Core/Src/ltdc.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/quadspi.cyclo ./Core/Src/quadspi.d ./Core/Src/quadspi.o ./Core/Src/quadspi.su ./Core/Src/rtc.cyclo ./Core/Src/rtc.d ./Core/Src/rtc.o ./Core/Src/rtc.su ./Core/Src/sai.cyclo ./Core/Src/sai.d ./Core/Src/sai.o ./Core/Src/sai.su ./Core/Src/sdmmc.cyclo ./Core/Src/sdmmc.d ./Core/Src/sdmmc.o ./Core/Src/sdmmc.su ./Core/Src/spdifrx.cyclo ./Core/Src/spdifrx.d ./Core/Src/spdifrx.o ./Core/Src/spdifrx.su ./Core/Src/spi.cyclo ./Core/Src/spi.d ./Core/Src/spi.o ./Core/Src/spi.su ./Core/Src/stm32f7xx_hal_msp.cyclo ./Core/Src/stm32f7xx_hal_msp.d ./Core/Src/stm32f7xx_hal_msp.o ./Core/Src/stm32f7xx_hal_msp.su ./Core/Src/stm32f7xx_hal_timebase_tim.cyclo ./Core/Src/stm32f7xx_hal_timebase_tim.d ./Core/Src/stm32f7xx_hal_timebase_tim.o ./Core/Src/stm32f7xx_hal_timebase_tim.su ./Core/Src/stm32f7xx_it.cyclo ./Core/Src/stm32f7xx_it.d ./Core/Src/stm32f7xx_it.o ./Core/Src/stm32f7xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f7xx.cyclo ./Core/Src/system_stm32f7xx.d ./Core/Src/system_stm32f7xx.o ./Core/Src/system_stm32f7xx.su ./Core/Src/tim.cyclo ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/tim.su ./Core/Src/usart.cyclo ./Core/Src/usart.d ./Core/Src/usart.o ./Core/Src/usart.su
+rm -rf ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rtc_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sd.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spdifrx.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_sdmmc.su ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.cyclo ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.o ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.su
+rm -rf default.size.stdout lab01.elf lab01.list lab01.map
+ 
+15:52:39 **** Incremental Build of configuration Debug for project lab01 ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_HOST/Target/usbh_conf.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_HOST/Target/usbh_conf.d" -MT"USB_HOST/Target/usbh_conf.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "USB_HOST/Target/usbh_conf.o"
+arm-none-eabi-gcc "../USB_HOST/Target/usbh_platform.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_HOST/Target/usbh_platform.d" -MT"USB_HOST/Target/usbh_platform.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "USB_HOST/Target/usbh_platform.o"
+arm-none-eabi-gcc "../USB_HOST/App/usb_host.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_HOST/App/usb_host.d" -MT"USB_HOST/App/usb_host.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "USB_HOST/App/usb_host.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery.d" -MT"STM32746G-Discovery/stm32746g_discovery.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_audio.d" -MT"STM32746G-Discovery/stm32746g_discovery_audio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_audio.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_camera.d" -MT"STM32746G-Discovery/stm32746g_discovery_camera.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_camera.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_eeprom.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_eeprom.d" -MT"STM32746G-Discovery/stm32746g_discovery_eeprom.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_eeprom.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_lcd.d" -MT"STM32746G-Discovery/stm32746g_discovery_lcd.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_lcd.o"
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:129:1: error: unknown type name 'AUDIO_DrvTypeDef'; did you mean 'GPIO_TypeDef'?
+  129 | AUDIO_DrvTypeDef          *audio_drv;
+      | ^~~~~~~~~~~~~~~~
+      | GPIO_TypeDef
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:105:1: error: unknown type name 'CAMERA_DrvTypeDef'
+  105 | CAMERA_DrvTypeDef   *camera_drv;
+      | ^~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Init':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:186:14: error: 'wm8994_drv' undeclared (first use in this function); did you mean 'WM8994_Drv_t'?
+  186 |   deviceid = wm8994_drv.ReadID(AUDIO_I2C_ADDRESS);
+      |              ^~~~~~~~~~
+      |              WM8994_Drv_t
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:186:14: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:204:14: error: request for member 'Init' in something not a structure or union
+  204 |     audio_drv->Init(AUDIO_I2C_ADDRESS, OutputDevice, Volume, AudioFreq);
+      |              ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Play':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:220:15: error: request for member 'Play' in something not a structure or union
+  220 |   if(audio_drv->Play(AUDIO_I2C_ADDRESS, pBuffer, Size) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_Init':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:155:6: warning: implicit declaration of function 'ov9655_ReadID'; did you mean 'OV9655_ReadID'? [-Wimplicit-function-declaration]
+  155 |   if(ov9655_ReadID(CAMERA_I2C_ADDRESS) == OV9655_ID)
+      |      ^~~~~~~~~~~~~
+      |      OV9655_ReadID
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Pause':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:255:15: error: request for member 'Pause' in something not a structure or union
+  255 |   if(audio_drv->Pause(AUDIO_I2C_ADDRESS) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Resume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:279:15: error: request for member 'Resume' in something not a structure or union
+  279 |   if(audio_drv->Resume(AUDIO_I2C_ADDRESS) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Stop':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:308:15: error: request for member 'Stop' in something not a structure or union
+  308 |   if(audio_drv->Stop(AUDIO_I2C_ADDRESS, Option) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:158:19: error: 'ov9655_drv' undeclared (first use in this function)
+  158 |     camera_drv = &ov9655_drv;
+      |                   ^~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:158:19: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:314:18: error: 'CODEC_PDWN_HW' undeclared (first use in this function)
+  314 |     if(Option == CODEC_PDWN_HW)
+      |                  ^~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetVolume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:333:15: error: request for member 'SetVolume' in something not a structure or union
+  333 |   if(audio_drv->SetVolume(AUDIO_I2C_ADDRESS, Volume) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetMute':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:353:15: error: request for member 'SetMute' in something not a structure or union
+  353 |   if(audio_drv->SetMute(AUDIO_I2C_ADDRESS, Cmd) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetOutputMode':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:374:15: error: request for member 'SetOutputMode' in something not a structure or union
+  374 |   if(audio_drv->SetOutputMode(AUDIO_I2C_ADDRESS, Output) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:166:23: error: 'CAMERA_R480x272' undeclared (first use in this function)
+  166 |     if (Resolution == CAMERA_R480x272)
+      |                       ^~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:170:17: error: request for member 'Init' in something not a structure or union
+  170 |       camera_drv->Init(CameraHwAddress, CAMERA_R640x480);
+      |                 ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_ClockConfig':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:170:41: error: 'CAMERA_R640x480' undeclared (first use in this function)
+  170 |       camera_drv->Init(CameraHwAddress, CAMERA_R640x480);
+      |                                         ^~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:180:17: error: request for member 'Init' in something not a structure or union
+  180 |       camera_drv->Init(CameraHwAddress, Resolution);
+      |                 ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_ContrastBrightnessConfig':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:340:16: error: request for member 'Config' in something not a structure or union
+  340 |   if(camera_drv->Config != NULL)
+      |                ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:342:15: error: request for member 'Config' in something not a structure or union
+  342 |     camera_drv->Config(CameraHwAddress, CAMERA_CONTRAST_BRIGHTNESS, contrast_level, brightness_level);
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:657:20: error: 'AUDIO_FREQUENCY_11K' undeclared (first use in this function); did you mean 'SAI_AUDIO_FREQUENCY_11K'?
+  657 |   if((AudioFreq == AUDIO_FREQUENCY_11K) || (AudioFreq == AUDIO_FREQUENCY_22K) || (AudioFreq == AUDIO_FREQUENCY_44K))
+      |                    ^~~~~~~~~~~~~~~~~~~
+      |                    SAI_AUDIO_FREQUENCY_11K
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:342:41: error: 'CAMERA_CONTRAST_BRIGHTNESS' undeclared (first use in this function)
+  342 |     camera_drv->Config(CameraHwAddress, CAMERA_CONTRAST_BRIGHTNESS, contrast_level, brightness_level);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:657:58: error: 'AUDIO_FREQUENCY_22K' undeclared (first use in this function); did you mean 'SAI_AUDIO_FREQUENCY_22K'?
+  657 |   if((AudioFreq == AUDIO_FREQUENCY_11K) || (AudioFreq == AUDIO_FREQUENCY_22K) || (AudioFreq == AUDIO_FREQUENCY_44K))
+      |                                                          ^~~~~~~~~~~~~~~~~~~
+      |                                                          SAI_AUDIO_FREQUENCY_22K
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_BlackWhiteConfig':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:358:16: error: request for member 'Config' in something not a structure or union
+  358 |   if(camera_drv->Config != NULL)
+      |                ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:360:15: error: request for member 'Config' in something not a structure or union
+  360 |     camera_drv->Config(CameraHwAddress, CAMERA_BLACK_WHITE, Mode, 0);
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:360:41: error: 'CAMERA_BLACK_WHITE' undeclared (first use in this function)
+  360 |     camera_drv->Config(CameraHwAddress, CAMERA_BLACK_WHITE, Mode, 0);
+      |                                         ^~~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c: In function 'BSP_CAMERA_ColorEffectConfig':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:376:16: error: request for member 'Config' in something not a structure or union
+  376 |   if(camera_drv->Config != NULL)
+      |                ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:378:15: error: request for member 'Config' in something not a structure or union
+  378 |     camera_drv->Config(CameraHwAddress, CAMERA_COLOR_EFFECT, Effect, 0);
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:657:96: error: 'AUDIO_FREQUENCY_44K' undeclared (first use in this function); did you mean 'SAI_AUDIO_FREQUENCY_44K'?
+  657 |   if((AudioFreq == AUDIO_FREQUENCY_11K) || (AudioFreq == AUDIO_FREQUENCY_22K) || (AudioFreq == AUDIO_FREQUENCY_44K))
+      |                                                                                                ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                SAI_AUDIO_FREQUENCY_44K
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:378:41: error: 'CAMERA_COLOR_EFFECT' undeclared (first use in this function)
+  378 |     camera_drv->Config(CameraHwAddress, CAMERA_COLOR_EFFECT, Effect, 0);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_Init':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:783:30: error: 'INPUT_DEVICE_DIGITAL_MICROPHONE_2' undeclared (first use in this function)
+  783 |   return BSP_AUDIO_IN_InitEx(INPUT_DEVICE_DIGITAL_MICROPHONE_2, AudioFreq, BitRes, ChnlNbr);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_qspi.d" -MT"STM32746G-Discovery/stm32746g_discovery_qspi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_qspi.o"
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c: In function 'GetSize':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:394:8: error: 'CAMERA_R160x120' undeclared (first use in this function)
+  394 |   case CAMERA_R160x120:
+      |        ^~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_InitEx':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:800:23: error: 'INPUT_DEVICE_INPUT_LINE_1' undeclared (first use in this function)
+  800 |   if ((InputDevice != INPUT_DEVICE_INPUT_LINE_1) &&       /* Only INPUT_LINE_1 and MICROPHONE_2 inputs supported */
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:399:8: error: 'CAMERA_R320x240' undeclared (first use in this function)
+  399 |   case CAMERA_R320x240:
+      |        ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_sd.d" -MT"STM32746G-Discovery/stm32746g_discovery_sd.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_sd.o"
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sdram.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_sdram.d" -MT"STM32746G-Discovery/stm32746g_discovery_sdram.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_sdram.o"
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:404:8: error: 'CAMERA_R480x272' undeclared (first use in this function)
+  404 |   case CAMERA_R480x272:
+      |        ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc "C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_ts.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32746G-Discovery/stm32746g_discovery_ts.d" -MT"STM32746G-Discovery/stm32746g_discovery_ts.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "STM32746G-Discovery/stm32746g_discovery_ts.o"
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:801:23: error: 'INPUT_DEVICE_DIGITAL_MICROPHONE_2' undeclared (first use in this function)
+  801 |       (InputDevice != INPUT_DEVICE_DIGITAL_MICROPHONE_2))
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/option/syscall.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/option/syscall.d" -MT"Middlewares/Third_Party/FatFs/src/option/syscall.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FatFs/src/option/syscall.o"
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c:409:8: error: 'CAMERA_R640x480' undeclared (first use in this function)
+  409 |   case CAMERA_R640x480:
+      |        ^~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:838:16: error: 'wm8994_drv' undeclared (first use in this function); did you mean 'WM8994_Drv_t'?
+  838 |     deviceid = wm8994_drv.ReadID(AUDIO_I2C_ADDRESS);
+      |                ^~~~~~~~~~
+      |                WM8994_Drv_t
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:856:16: error: request for member 'Init' in something not a structure or union
+  856 |       audio_drv->Init(AUDIO_I2C_ADDRESS, InputDevice, 100, AudioFreq);
+      |                ^~
+make: *** [STM32746G-Discovery/subdir.mk:47: STM32746G-Discovery/stm32746g_discovery_camera.o] Error 1
+make: *** Waiting for unfinished jobs....
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_OUT_Init':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:878:22: error: 'INPUT_DEVICE_DIGITAL_MICROPHONE_2' undeclared (first use in this function)
+  878 |   if (InputDevice != INPUT_DEVICE_DIGITAL_MICROPHONE_2)  /* Only MICROPHONE_2 input supported */
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:924:16: error: 'wm8994_drv' undeclared (first use in this function); did you mean 'WM8994_Drv_t'?
+  924 |     deviceid = wm8994_drv.ReadID(AUDIO_I2C_ADDRESS);
+      |                ^~~~~~~~~~
+      |                WM8994_Drv_t
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:942:16: error: request for member 'Init' in something not a structure or union
+  942 |       audio_drv->Init(AUDIO_I2C_ADDRESS, InputDevice | OutputDevice, 100, AudioFreq);
+      |                ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_Stop':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:984:15: error: request for member 'Stop' in something not a structure or union
+  984 |   if(audio_drv->Stop(AUDIO_I2C_ADDRESS, Option) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:990:18: error: 'CODEC_PDWN_HW' undeclared (first use in this function)
+  990 |     if(Option == CODEC_PDWN_HW)
+      |                  ^~~~~~~~~~~~~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_SetVolume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:1032:15: error: request for member 'SetVolume' in something not a structure or union
+ 1032 |   if(audio_drv->SetVolume(AUDIO_I2C_ADDRESS, Volume) != 0)
+      |               ^~
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Play':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:231:1: warning: control reaches end of non-void function [-Wreturn-type]
+  231 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Pause':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:267:1: warning: control reaches end of non-void function [-Wreturn-type]
+  267 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Resume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:291:1: warning: control reaches end of non-void function [-Wreturn-type]
+  291 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_Stop':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:322:1: warning: control reaches end of non-void function [-Wreturn-type]
+  322 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetVolume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:342:1: warning: control reaches end of non-void function [-Wreturn-type]
+  342 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetMute':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:362:1: warning: control reaches end of non-void function [-Wreturn-type]
+  362 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_OUT_SetOutputMode':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:383:1: warning: control reaches end of non-void function [-Wreturn-type]
+  383 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_Init':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:784:1: warning: control reaches end of non-void function [-Wreturn-type]
+  784 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_Stop':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:998:1: warning: control reaches end of non-void function [-Wreturn-type]
+  998 | }
+      | ^
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c: In function 'BSP_AUDIO_IN_SetVolume':
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c:1043:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1043 | }
+      | ^
+make: *** [STM32746G-Discovery/subdir.mk:45: STM32746G-Discovery/stm32746g_discovery_audio.o] Error 1
+In file included from C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_ts.h:31,
+                 from C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_ts.c:60:
+C:/Users/Matteo/Desktop/DSP/STM32CubeF7/Drivers/BSP/STM32746G-Discovery/../Components/ft5336/ft5336.h:32:10: fatal error: ft5336_conf.h: No such file or directory
+   32 | #include "ft5336_conf.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [STM32746G-Discovery/subdir.mk:59: STM32746G-Discovery/stm32746g_discovery_ts.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
